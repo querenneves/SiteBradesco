@@ -1,0 +1,68 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #7c4664f1;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: rgb(24, 20, 14);
+    margin: 20px 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 16px;
+    color: #333;
+    margin: 8px 0;
+}
+
+.btn {
+    height: 50px;
+    width: 100px;
+    border: none;
+    background-color: #7c4664f1;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+/* Estilos para o carrossel de imagens */
+.carousel-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    overflow: hidden;
+    margin-top: 20px;
+    position: relative;
+    width: 300px; /* Largura fixa do carrossel */
+    height: 200px; /* Altura do carrossel para separar as imagens */
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.carousel-slide img {
+    max-width: 100%;
+    height: auto;
+    width: 300px; /* Largura das imagens ajustada */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
