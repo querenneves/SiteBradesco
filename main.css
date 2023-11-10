@@ -65,4 +65,8 @@ li {
     width: 300px; /* Largura das imagens ajustada */
     margin: 0 auto; /* Centraliza a imagem horizontalmente */
 }
-
+.footer::after {
+    content: "Feito com ♥️ por Qneves";
+    opacity: 0.6;
+    font-size: 0.8rem;
+}

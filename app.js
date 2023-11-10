@@ -8,4 +8,4 @@ function rotateImages() {
     carousel.style.transform = `translateX(${translateValue})`;
 }
 
-setInterval(rotateImages, 3000); // Muda a cada 3 segundos (3000 milissegundos)
+setInterval(rotateImages, 4000); // Muda a cada 3 segundos (3000 milissegundos)
